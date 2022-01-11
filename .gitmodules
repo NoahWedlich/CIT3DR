@@ -1,0 +1,3 @@
+[submodule "CIT3DR/vendor/spdlog"]
+	path = CIT3DR/vendor/spdlog
+	url = https://github.com/gabime/spdlog
