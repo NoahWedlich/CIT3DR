@@ -1,9 +1,8 @@
+#include "citrpch.h"
 #include "Core.h"
 #include "Log.h"
 #include "Events/Event.h"
 #include "Events/ApplicationEvent.h"
-#include <stdio.h>
-#include <iostream>
 
 int main()
 {

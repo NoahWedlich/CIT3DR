@@ -1,3 +1,4 @@
+#include "citrpch.h"
 #include "Log.h"
 
 namespace CITR

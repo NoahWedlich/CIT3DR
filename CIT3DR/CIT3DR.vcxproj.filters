@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Events">
+      <UniqueIdentifier>{3A8963B1-262B-8E87-0FE6-A1DBFB2615D8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CIT3DR\Core.h" />
+    <ClInclude Include="src\CIT3DR\Events\ApplicationEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CIT3DR\Events\Event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CIT3DR\Events\KeyEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CIT3DR\Events\MouseEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CIT3DR\Log.h" />
+    <ClInclude Include="src\CIT3DR\citrpch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CIT3DR\Log.cpp" />
+    <ClCompile Include="src\CIT3DR\application.cpp" />
+    <ClCompile Include="src\CIT3DR\citrpch.cpp" />
+  </ItemGroup>
+</Project>

@@ -17,6 +17,9 @@ project "CIT3DR"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "citrpch.h"
+    pchsource "CIT3DR/src/CIT3DR/citrpch.cpp"
+
     files
     {
         "%{prj.name}/src/**.h",
